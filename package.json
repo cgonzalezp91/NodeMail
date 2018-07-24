@@ -1,0 +1,31 @@
+{
+  "name": "nodemail",
+  "version": "1.0.0",
+  "description": "A Mail Plataform to consume a DB and send reports over email",
+  "main": "index.js",
+  "scripts": {
+    "lint": "standard"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "Carlos Gonzalez (https://www.linkedin.com/in/cgonzalezp91/)",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-eslint": "^8.2.6",
+    "standard": "^11.0.1"
+  },
+  "dependencies": {
+    "args": "^5.0.0",
+    "chalk": "^2.4.1",
+    "clear": "^0.1.0",
+    "figlet": "^1.2.0",
+    "inquirer": "^6.0.0",
+    "json2xls": "^0.1.2",
+    "lodash": "^4.17.10",
+    "mssql": "^4.1.0",
+    "nodemailer": "^4.6.7",
+    "pretty": "^2.0.0",
+    "tedious": "2.2.4"
+  }
+}
