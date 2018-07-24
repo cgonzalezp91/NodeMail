@@ -18,7 +18,7 @@ const figlet = require('figlet')
 const args = require('args')
 ```
 
-You can see more about them i their respective documentations 
+You can see more about them in their respective documentations 
  * [chalk](https://www.npmjs.com/package/chalk)
  * [clear](https://www.npmjs.com/package/clear)
  * [figlet](https://www.npmjs.com/package/figlet)
@@ -31,7 +31,7 @@ The receiving data from the DB can be send in 2 ways (the data always come in js
  1. Transform the json to an html table and send the email in html format, this is better if the data doesn't have to many columns
  2. If there are to many columns is better to transform the data in an .xls file to open it by Excel (by defualt the file name is the date of when is created, i suggest to add some extra comment to identify mutiple file).
 
-### Database Queys
+### Database Queries
 We use a SQL Server database to stroage and bring data form the DB, with the help of the module [mssql](https://www.npmjs.com/package/mssql)
 
 Inside the folder modules/dbquerys you need to define a module to make the query to the db an export this module, you can see the `getusers.js` as an example
