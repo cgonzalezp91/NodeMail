@@ -1,4 +1,4 @@
-# Node Mail Server
+# Node Mail
 
 This is a command line interface app in nodejs made to query a DB in mssql server with the help of the module [mssql](https://www.npmjs.com/package/mssql) and send the receiving data through email with the help of [nodemailer](https://nodemailer.com/about/).
 
