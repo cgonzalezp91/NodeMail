@@ -207,5 +207,5 @@ async function sendusersfile () {
 We use the `let date` to check the current date and that date to the file name.
 The `mailOptions` object is what the nodemailer ask for us to send it by parameters, we construct a default mailOption and use this as a template creating new objects with `Object.assign` and modificating what we need
 
-### EMAILE
+### EMAIL
 Finally we use [nodemailer](https://nodemailer.com/about/) to send the data, we have a module inside `modules/sendemail.js` that we use to use nodemailer passing the parameters that is needed to send the email
