@@ -24,7 +24,7 @@
     "json2xls": "^0.1.2",
     "lodash": "^4.17.10",
     "mssql": "^4.1.0",
-    "nodemailer": "^4.6.7",
+    "nodemailer": "^6.6.1",
     "pretty": "^2.0.0",
     "tedious": "2.2.4"
   }
